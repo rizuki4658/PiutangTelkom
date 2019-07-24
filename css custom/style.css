@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: transparent;
+	height: 80px;
+	width: 100%;
+}
+h1{
+	font-size: 2.5em;
+	text-align: center;
+}
+.main{
+	background-color: transparent;
+	height: 350px;
+	width: 60%;
+	margin-left: 20%;
+}
+.kol-4{
+	width: 48%;
+	margin: 1%;
+	float: left;
+	height: 150px;
+	background-color: transparent;
+	font-size: 2em;
+}
+.menu-logo{
+	width: 30%;
+}
+.menu-tiitle{
+	color: #909193;
+	font-size: 2em;
+}
+.wrap{
+	width: 139px;
+	height: 140px;
+	overflow: hidden;
+	position: relative;
+	background-color: transparent;
+}
+.info{
+	background-color: rgba(238, 46, 36, 0.7);
+	position: absolute;
+	top: 0px;
+	color: white;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-top: 30%;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.wrap img{
+	width: 100%;
+	height: 100%;
+	transition: 1s transform;
+}
+.wrap .info{
+	display: none;
+}
+.wrap:hover .info{
+	display: block;
+	transform: tr
+}
+
+.wrap:hover img{
+	transform: translateZ(10px) rotateY(180deg);
+}
+.info a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 90%;			
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 14px;
+}
+.info a:hover{
+	background-color: white; 
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.conten-panel{
+	width: 100%;
+	height: auto;
+	background-color: green;
+	padding-left: 20px;
+}
+.panel-menu{
+	width: 20%;
+	height: 100%;
+	background-color: #ee2e24;
+	bottom: 20px;
+	border-radius: 5px;
+}
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
